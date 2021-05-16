@@ -4,7 +4,9 @@ A website for downloading YouTube videos in .mp4 and .mp3 formats. Written using
 ## Set Up
 Run the following commands in the terminal while in the project directory:
 > npm install
+> 
 > cd client
+> 
 > npm install
 
 ## How To Run
