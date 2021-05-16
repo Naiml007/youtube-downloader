@@ -14,3 +14,6 @@ Run the following commands in the terminal while in the project directory:
 - Run "npm server-start" to run the backend on port 5000 only
 - Run "npm client-start" to run the backend on port 3000 only
 - The site can be accessed on http://localhost:3000/ when running locally
+
+### Resources
+🔗 https://github.com/fent/node-ytdl-core
