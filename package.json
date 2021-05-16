@@ -1,0 +1,22 @@
+{
+  "name": "youtube-downloader",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.3.0",
+    "ytdl-core": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "client-start": "npm start --prefix client",
+    "server-start": "node server.js",
+    "server-start:dev": "nodemon server.js",
+    "start": "concurrently \"npm run server-start:dev\" \"npm run client-start\""
+  }
+}
